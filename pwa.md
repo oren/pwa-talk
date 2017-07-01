@@ -1,4 +1,4 @@
-Are PWA the future of web development?
+Are Progressive Web Apps the Future of Web Development?
 ===
 ![](pics/future.jpg)
 
@@ -7,7 +7,7 @@ Are PWA the future of web development?
 
 ```
 return (
-  <Profile 
+  <Profile
     name="Oren Golan">
     job="SDM, Amazon Video"
     location="Seattle"
@@ -18,14 +18,14 @@ return (
 
 ---
 
-# What are PWA
+# What are PWAs
 (the developer's version)
 
 Native-level experience that works reliably on both desktop & mobile. Key concepts are performance & responsiveness.
 
 ---
 
-# What are PWA
+# What are PWAs
 (the product manager version)
 
 A way to increase
@@ -63,18 +63,20 @@ show screenshot of my apps
 
 ---
 
+# [The PRPL Pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern)
+
+* Render initial route - prerender
+* Push: serve (by default) creates a simple HTTP2 server, which is a HTTP2/Push server. You can check the console for verification.
+* Precache: The service worker is configured for offline use.
+* Lazy-Load: Automatic code-splitting for routes and shared "chunks" are optimized for reuse. Navigating from /about to /contact will dynamically (or "lazily") load the "contact" bundle and any associated chunks. This is all thanks to webpack.
+
+---
 # Webpack
 
  * [dynamic bundle splitting](https://webpack.js.org/guides/code-splitting-async/)
  * [tree-shaking capabilities](https://webpack.js.org/guides/tree-shaking/)
 
 ---
-
-[The PRPL Pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern)
-
-* Render initial route - prerender
-* Push: serve (by default) creates a simplehttp2server, which is a HTTP2/Push server. You can check the console for verification.
-* Precache: The service worker is configured for offline use.
-* Lazy-Load: Automatic code-splitting for routes and shared "chunks" are optimized for reuse. Navigating from /about to /contact will dynamically (or "lazily") load the "contact" bundle and any associated chunks. This is all thanks to webpack.
-
+# Babel
+Write down what is babel and what features relate to PRPL
 ---
