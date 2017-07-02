@@ -1,0 +1,65 @@
+Hi!
+
+I am Oren Golan, an SDM on Amazon video in Seattle.
+
+The name of my talk is "Are PWA the future of web development?".
+
+Progressive Web Apps or PWA is a new way to build very performant websites.
+It even compete with native - it gives you an app-like experience, offline support, and push notifications.
+
+If you noticed, a few weeks ago Twitter announced twitter light. which is a PWD. Many users (including myself) uninstalled
+the app and are using the PWA instead because it's better. There are other examples such as Aliexpress which is Alibaba's retail website, and Uber.
+
+This talk will be light on theory.
+I'll do a live demo of building a PWA from scratch using Preact which is React-like framewrok but with fraction of the size. it's only 3k.
+
+The audience will be able to introduce PWA to their companies and build an amazing web apps with it.
+
+
+
+
+
+
+
+
+
+
+--------
+half of mobile site visits are abandoned if pages take longer than 3 seconds to load
+For every 100 ms of improvement, you increase your revenue by 1%.
+
+Amazon is driven by our customers and customers want to get things done quickly.
+and that's why performance is rooted in our culture.
+
+and it's driven by Google, Mozilla, Oprea and hopefuly Apple will join soon because they don't want to stay behind.
+https://www.youtube.com/watch?v=w_M2sbYEQKc
+
+---
+
+
+1. What is the title of your talk? This should be short and engaging.
+Are PWA the future of web development?
+
+2. What is the summary of your talk? This will help attendees decide if they want to watch your talk and should not exceed a couple of paragraphs.
+Progressive Web Apps or PWA is a new way to build very performant websites. It even compete with native - it gives you an app-like experience, offline support, and push notifications.
+A few weeks ago Twitter announced 'Twitter Light'. It's a PWA. Many users (including myself) uninstalled the native Twitter app and instead uses the PWA because it performs better and feel lighter.
+There are other examples for big companies that recently switched to PWA such as AliExpress which is Alibaba's retail website.
+This talk will be light on theory. I'll do a live demo of building a PWA from scratch using Preact which is React-like framewrok but with fraction of the size. it's only 3k.
+The audience will be able to introduce PWA to thier team at amazon and build an amazing web apps with it.
+
+3. What is the abstract of your talk? This should describe your talk in detail so the WebDevCon team can evaluate it for submission.
+
+Why Peformance matters?
+  How performance impacts the company's revenues.
+What's a Progressive Web App?
+  Progressive - works on every browser, Responsive - works on every screen-size, Connectivity independent - can work offline or low-quality networks, App-like - feels like an app.
+Who is driving it?
+  The main forces behind it - Google, Mozilla, and  Oprea. What about Apple?
+A few examples of large companies that adopted PWA - Twitter, AliExpress
+Let's dive in! - live code session where we build a PWA together
+
+4. What is the URL for your 30-60 second pitch video? Please use drive.corp.amazon.com and add view permissions for anyone.
+https://drive.corp.amazon.com/documents/oreng@/Conferences/webdevcon-eu-2017-oren-golan.mp4
+
+5. Additional presenter names (include username):
+No additional presenter but here my presestation style (link to another talk I gave) - https://www.joyent.com/blog/node-js-on-the-road-la-oren-golan

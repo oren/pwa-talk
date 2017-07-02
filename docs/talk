@@ -1,0 +1,29 @@
+https://developers.google.com/web/fundamentals/performance/prpl-pattern/
+Render initial route - prerender
+Push: serve (by default) creates a simplehttp2server, which is a HTTP2/Push server. You can check the console for verification.
+Precache: The service worker is configured for offline use.
+Lazy-Load: Automatic code-splitting for routes and shared "chunks" are optimized for reuse. Navigating from /about to /contact will dynamically (or "lazily") load the "contact" bundle and any associated chunks. This is all thanks to webpack.
+
+
+Webpack was configured to route-split. If you take a look at your files:
+bundle.js is the shared/main file -- Preact & co will be there.
+Each route-* is a route-specific entry file. Your route-login will only ("lazy") load when /login is active. Same goes for home, clinic, etc.
+As your app grows, you'll get more route-* files. You will also (sometimes) get smaller chunks for the same route, depending on what kind of activity is happening on that page.
+
+
+perf test
+a custom benchmark suite that runs through a bench of tests (including JS ready-time) and charts the total time of completion
+some of the tests are: time to render 100 items, rerender, clear all completed, etc
+
+https://github.com/tastejs/todomvc/tree/master/tests
+https://developit.github.io/preact-perf/
+
+
+tree shaking
+https://webpack.js.org/guides/tree-shaking/
+
+
+To use React component in Preact:
+https://github.com/developit/preact-compat
+
+split - every component under /routes
