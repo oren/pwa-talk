@@ -2,8 +2,11 @@
 
 ```
 sudo apt-get install impressive
-impressive -a 15 -k --nologo pwa.pdf
+impressive --auto 15 --auto-progress --nologo pwa.pdf
 ```
+* auto: move automatically
+* auto-progress: show progress bar
+* nologo: don't show the 'impressive' logo on start
 
 ## Modify slides
 

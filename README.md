@@ -6,32 +6,13 @@ Are Progressive Web Apps the Future of Web Development?
 
 ---
 
-# Format of This Talk
-
-* 5 minutes Ignite style (20 slides, auto-run mode, 15 secs each).
-* 30 minutes of mob programming (4 engineers will be working on the app together using github to send PRs).
-* 5 minutes for questions.
-
----
-
-```
-return (
-  <Profile
-    name="Oren Golan">
-    job="SDM, Amazon Video"
-    location="Seattle"
-    website="oren.github.io"
-  </Profile>
-)
-```
-![](pics/amazon-video.jpg)
-
----
-
 # What are PWAs
 (the developer's version)
 
-Native-level experience that works reliably on both desktop & mobile. Key concepts are performance & responsiveness.
+* Native-level experience.
+* Performance & responsiveness.
+* Single codebase.
+* Multiple devices, desktop and mobile.
 
 ---
 
@@ -39,10 +20,22 @@ Native-level experience that works reliably on both desktop & mobile. Key concep
 (the product manager version)
 
 A way to improve the following:
-- Conversion rate
-- Page visits
-- User time spent on app
-- Quicker time to market
+* Conversion rate
+* Page visits
+* User time spent on app
+* Quicker time to market
+* Business model freedom
+* App discovery
+* App installation fatigue
+* App loyalty
+* App reach
+
+https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/
+
+---
+
+# Not Everyone Lives in a Wealthy Nation
+![](pics/too-many.png)
 
 ---
 
@@ -58,11 +51,6 @@ A way to improve the following:
 
 # Show Case 3 - UBER 
 ![](pics/uber.png)
-
----
-
-# Not Everyone Lives in a Wealthy Nation
-![](pics/too-many.png)
 
 ---
 
@@ -89,6 +77,9 @@ https://developers.google.com/web/fundamentals/performance/prpl-pattern/
 ---
 
 # Preact
+
+React on steroids - 3k, similar API
+
 ![](pics/preact.png)
 
 ---
@@ -100,40 +91,64 @@ https://developit.github.io/preact-perf
 
 ---
 
-# Preact - Webpack
+# What does Webpack do for us?
 * Creates a single js file from all the JavaScript files.
-* Lets me use the dev server and it enables the hot module reloading feature.
+* Enables a dev server with hot module reloading - https://webpack.github.io/docs/hot-module-replacement-with-webpack.html
 * Dynamic bundle splitting - https://webpack.js.org/guides/code-splitting-async
 * Tree-shaking capabilities - https://webpack.js.org/guides/tree-shaking
 
 ---
 
-# Preact - Babel
+# What does Babel do for us?
 
 Converts ES2015 syntax to ES5 so my browser will be able to render the JavaScript. Things like import, let, require, arrow function, and also converts jsx to JavaScript.
 
 ---
-# Preact - CSS Module
-(removes the C from the CSS)
+# What are CSS Module?
 
 index.js
 ```
 import style from "./style"
-<div class={style.rounded}>
+
+render() {
+  <div class={style.rounded}>
+}
+
 ```
 
-style.css
+style.css (or LESS, Sass etc)
 ``` css
 .rounded {
-	display: block;
-	background: #FFF;
-	margin: 0px auto 0 auto;
-	border-radius: 8px;
-	padding: 10px;
+  display: block;
+  background: #FFF;
+  margin: 0px auto 0 auto;
+  border-radius: 8px;
+  padding: 10px;
 }
 ```
 
 https://github.com/css-modules/css-modules
+
+---
+
+# What are Styled Components?
+
+
+```js
+render(
+  <Title>
+    Hello World, this is my first styled component!
+  </Title>
+);
+```
+
+```js
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: blue;
+`;
+```
 
 ---
 
@@ -159,14 +174,17 @@ preact watch
 
 ---
 
+# Lighthouse
+
+![](pics/lighthouse.png)
+
+---
+
 # Resources
 
-* How Twitter light was built - https://blog.twitter.com/official/en_us/topics/product/2017/introducing-twitter-lite.html
-
-* How M.UBER was built - https://eng.uber.com/m-uber
-
-* Financial times PWA - https://app.ft.com
-
-* AliExpress PWA - https://m.aliexpress.com
-
-* Preact-cli - https://github.com/developit/preact-cli
+* How Twitter light was built: https://blog.twitter.com/official/en_us/topics/product/2017/introducing-twitter-lite.html
+* How M.UBER was built: https://eng.uber.com/m-uber
+* Financial times PWA: https://app.ft.com
+* AliExpress PWA: https://m.aliexpress.com
+* Preact: https://preactjs.com
+* Preact-cli: https://github.com/developit/preact-cli
