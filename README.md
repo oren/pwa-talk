@@ -104,7 +104,7 @@ https://developit.github.io/preact-perf
 Converts ES2015 syntax to ES5 so my browser will be able to render the JavaScript. Things like import, let, require, arrow function, and also converts jsx to JavaScript.
 
 ---
-# What are CSS Module?
+# What are CSS Modules?
 
 index.js
 ```
