@@ -20,7 +20,14 @@ return (
 
 ---
 
-# Format of The Talk
-* 5 minutes Ignite style (20 slides, auto-run mode, 15 secs each).
-* 30 minutes of mob programming (4 engineers will be working on the app together using github to send PRs).
-* 5 minutes for questions.
+# Structure of The Talk
+### 1. Intro to PWAs.
+* Time: 5 min.
+* Format: Ignite style (20 slides, auto-run mode, 15 secs each).
+
+### 2. Live code of a PWA.
+* Time: 30 min.
+* Format: [Mob programming](https://en.wikipedia.org/wiki/Mob_programming) (one computer, the entire team).
+
+### 3. Questions.
+* Time: 5 min.
