@@ -39,6 +39,14 @@ https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/
 
 ---
 
+# Apple
+
+(Takes 30% of your sales)  
+![](pics/apple.jpg)
+
+
+---
+
 # Show Case 1 - AliExpress
 ![](pics/ali.png)
 
@@ -59,11 +67,6 @@ https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/
 - Measure peformance with the tool Lighthouse.
 - Icon on home screen.
 - (Android/Mozilla/IE) App-like 'loading' page, no URL, push notification and more.
-
----
-
-# Apple
-![](pics/apple.jpg)
 
 ---
 
@@ -132,15 +135,7 @@ https://github.com/css-modules/css-modules
 ---
 
 # What are Styled Components?
-
-
-```js
-render(
-  <Title>
-    Hello World, this is my first styled component!
-  </Title>
-);
-```
+(CSS in JavaScript)
 
 ```js
 const Title = styled.h1`
@@ -148,6 +143,13 @@ const Title = styled.h1`
   text-align: center;
   color: blue;
 `;
+
+render(
+  <Title>
+    Hello World, this is my first styled component!
+  </Title>
+);
+
 ```
 
 ---
