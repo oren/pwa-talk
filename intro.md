@@ -1,7 +1,6 @@
 <!-- page_number: true -->
 
 # Are Progressive Web Apps the Future of Web Development?
-![](pics/future.jpg)
 
 ---
 
