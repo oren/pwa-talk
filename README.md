@@ -93,8 +93,8 @@ https://developit.github.io/preact-perf
 
 # What does Webpack do for us?
 * Creates a single js file from all the JavaScript files.
-* Enables a dev server with hot module reloading - https://webpack.github.io/docs/hot-module-replacement-with-webpack.html
-* Dynamic bundle splitting - https://webpack.js.org/guides/code-splitting-async
+* Enables a dev server with hot module reloading - https://webpack.github.io/docs/hot-module-replacement-with-webpack.html.
+* Dynamic bundle splitting - https://webpack.js.org/guides/code-splitting-async.
 * Tree-shaking capabilities - https://webpack.js.org/guides/tree-shaking
 
 ---
