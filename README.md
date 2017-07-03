@@ -168,7 +168,7 @@ preact watch
 
 # Preact - Baked in PRPL
 * **Precache:** The service worker is configured for offline use.
-* **Render initial route:** use a tool called prerender
+* **Render initial route:** use a tool called prerender.
 * **HTTP2/Push Server:** `preact serve` creates a simple HTTP2 server.
 * **Lazy-Load:** Automatic code-splitting for routes and shared "chunks" are optimized for reuse. Navigating from `/about` to `/contact` will dynamically (or "lazily") load the "contact" bundle and any associated chunks. This is all thanks to webpack.
 
