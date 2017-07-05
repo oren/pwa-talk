@@ -107,50 +107,17 @@ https://developit.github.io/preact-perf
 Converts ES2015 syntax to ES5 so my browser will be able to render the JavaScript. Things like import, let, require, arrow function, and also converts jsx to JavaScript.
 
 ---
-# What are CSS Modules?
 
-index.js
-```
-import style from "./style"
-
-render() {
-  <div class={style.rounded}>
-}
-
-```
-
-style.css (or LESS, Sass etc)
-``` css
-.rounded {
-  display: block;
-  background: #FFF;
-  margin: 0px auto 0 auto;
-  border-radius: 8px;
-  padding: 10px;
-}
-```
-
-https://github.com/css-modules/css-modules
+# CSS in Javascript
+![](pics/css-in-js.png)
+* https://github.com/css-modules/css-modules
+* https://m.alphasights.com/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b
 
 ---
 
-# What are Styled Components?
-(CSS in JavaScript)
-
-```js
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: blue;
-`;
-
-render(
-  <Title>
-    Hello World, this is my first styled component!
-  </Title>
-);
-
-```
+# CSS Modules
+![](pics/red.jpeg)
+* https://medium.com/@gajus/stop-using-css-in-javascript-for-web-development-fa32fb873dcc
 
 ---
 

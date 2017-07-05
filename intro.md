@@ -27,6 +27,7 @@ return (
 ### 2. Live code of a PWA.
 * Time: 30 min.
 * Format: [Mob programming](https://en.wikipedia.org/wiki/Mob_programming) (one computer, the entire team).
+* On the menu: Preact as the first course. Contineous Delivery pipeline with AWS/Lambda/Golang as the second.
 
 ### 3. Questions.
 * Time: 5 min.
