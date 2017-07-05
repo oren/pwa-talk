@@ -2,6 +2,8 @@
 
 # Are Progressive Web Apps the Future of Web Development?
 
+This talk is available on my website: https://oren.github.io
+
 ---
 
 # About me
