@@ -2,7 +2,7 @@
 
 ```
 sudo apt-get install impressive
-impressive --auto 15 --auto-progress --nologo pwa.pdf
+impressive --auto 15 --auto-progress --nologo README.pdf
 ```
 * auto: move automatically
 * auto-progress: show progress bar
