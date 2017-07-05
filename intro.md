@@ -20,14 +20,14 @@ return (
 ---
 
 # Structure of The Talk
-### 1. Intro to PWAs.
+### 1. Intro to Progressive Web Apps (PWA).
 * Time: 5 min.
 * Format: Ignite style (20 slides, auto-run mode, 15 secs each).
 
 ### 2. Live code of a PWA.
 * Time: 30 min.
 * Format: [Mob programming](https://en.wikipedia.org/wiki/Mob_programming) (one computer, the entire team).
-* On the menu: Preact as the first course. Contineous Delivery pipeline with AWS/Lambda/Golang as the second.
+* On the menu: Preact as the first course. Contineous Delivery pipeline with AWS/Lambda as the second.
 
 ### 3. Questions.
 * Time: 5 min.
