@@ -15,5 +15,8 @@
   "license": "ISC",
   "eslintConfig": {
     "extends": "eslint-config-synacor"
+  },
+  "dependencies": {
+    "rc-slider": "^8.2.0"
   }
 }

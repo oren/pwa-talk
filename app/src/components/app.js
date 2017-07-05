@@ -4,6 +4,7 @@ import { Router } from 'preact-router';
 import Header from './header';
 import Home from '../routes/home';
 import Profile from '../routes/profile';
+import Hours from "../routes/store-hours"
 // import Home from 'async!./home';
 // import Profile from 'async!./profile';
 
@@ -24,6 +25,7 @@ export default class App extends Component {
 					<Home path="/" />
 					<Profile path="/profile/" user="me" />
 					<Profile path="/profile/:user" />
+					<Hours path="/hours" />
 				</Router>
 			</div>
 		);
