@@ -42,7 +42,7 @@ https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/
 
 # Apple
 
-(Takes 30% of your sales)  
+(Takes 30% of your sales)
 ![](pics/apple.jpg)
 
 
@@ -53,12 +53,12 @@ https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/
 
 ---
 
-# Show Case 2 - Twitter 
+# Show Case 2 - Twitter
 ![](pics/twitter-light.png)
 
 ---
 
-# Show Case 3 - UBER 
+# Show Case 3 - UBER
 ![](pics/uber.png)
 
 ---
