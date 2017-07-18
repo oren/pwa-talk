@@ -45,7 +45,6 @@ https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/
 (Takes 30% of your sales)
 ![](pics/apple.jpg)
 
-
 ---
 
 # Show Case 1 - AliExpress
