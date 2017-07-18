@@ -1,0 +1,26 @@
+During first intro slide: mention that it's indistinguishable from mobile
+share slides before ignite
+explain better what pwa is. it's too fast
+show animation of home screen icon
+show simple pwa example - no js
+http://www.pechakucha.org/
+spend 5 minutes on
+
+one cli command
+build entire stack - front and backend
+CodeStar/Lambda/Go/Preact
+
+
+1. Record a video instead of live demo
+2. Make sure things are working
+3. Make sure PDF is working
+4. Use Cheat sheet
+5. Open one file at a time
+6. Manifest file - how does it work
+8. How does the icon show up in the home screen?
+9. Intro slide - spelling - contineous
+10. Shoot a video of ignite
+11. apple slide - what's up with the %30?
+12. usecase - too small to read - remove the text.
+13. Lighthouse - text too small
+14. Preact performance - too small

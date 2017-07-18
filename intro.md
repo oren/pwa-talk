@@ -29,7 +29,7 @@ return (
 ### 2. Live code of a PWA.
 * Time: 30 min.
 * Format: [Mob programming](https://en.wikipedia.org/wiki/Mob_programming) (one computer, the entire team).
-* On the menu: Live coding of PWA from scratch as the first course. Contineous Delivery pipeline with AWS/Lambda as the second.
+* On the menu: Live coding of PWA from scratch as the first course. Continuous Delivery pipeline with AWS/Lambda as the second.
 
 ### 3. Questions.
 * Time: 5 min.
