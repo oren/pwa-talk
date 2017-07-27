@@ -6,24 +6,29 @@ xrandr --output $(xrandr | grep " connected" |tail -n 1| awk '{print $1}') --aut
 
 Font size - huge
 
-## 2. PWA example (1 min video)
+### 2. Intro
+```
+zathura --mode=fullscreen ~/p/pwa-talk/intro.pdf
+```
+
+## 3. Example of PWAs (1 min video)
 ```
 m ~/t/pwa/pwa-examples.mp4
 ```
 
-## 3. PWA overview (5 min ignite style presentation)
+## 4. Overview of PWAs (5 min ignite style presentation)
 ```
 impressive --auto 15 --auto-progress --nologo ~/p/pwa-talk/README.pdf
 ```
 
-### 4. Static web app (live coding, 10 min)
+### 5. Static web app (10 min live coding)
 ```
 chromium-browser ~/p/pwa-talk/static-pwa/index.html
 cd ~/p/pwa-talk/static-pwa
 v index.html style.css manifest.json
 ```
 
-### 5. Preact (live coding, 10 min)
+### 6. Preact (10 min live coding)
 ```
 cd ~/p/pwa-talk/app
 git checkout v1.0.0-preact-cli
